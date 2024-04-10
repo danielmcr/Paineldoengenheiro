@@ -266,6 +266,18 @@ td {
         box-sizing: border-box;
         /* Inclui padding e borda no cálculo da largura */
     }
-
-
+}
+footer {
+  background-color: #123456;
+  color: white;
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+footer a {
+  margin-top: auto;
+  font-size: 12px;
+  color: white;
+  margin: 0 10px; /* Adiciona espaço entre os links */
 }
